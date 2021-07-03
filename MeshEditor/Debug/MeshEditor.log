@@ -1,0 +1,25 @@
+﻿  glad.c
+  main.cpp
+C:\Users\Orest\source\repos\MeshEditor\GLRenderSystem.h(48,19): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Orest\source\repos\MeshEditor\GLRenderSystem.h(48,16): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\Orest\source\repos\MeshEditor\GLRenderSystem.h(98,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Orest\source\repos\MeshEditor\GLRenderSystem.h(111,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Orest\source\repos\MeshEditor\GLRenderSystem.h(134,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Orest\source\repos\MeshEditor\main.cpp(45,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Orest\source\repos\MeshEditor\main.cpp(81,20): warning C4018: '<': signed/unsigned mismatch
+main.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwTerminate referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwCreateWindow referenced in function "public: __thiscall GLWindow::GLWindow(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int,unsigned int)" (??0GLWindow@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@II@Z)
+main.obj : error LNK2019: unresolved external symbol _glfwWindowShouldClose referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwSetWindowShouldClose referenced in function "void __cdecl onKeyCallback(struct GLFWwindow *,enum KeyCode,int,enum Action,enum Modifier)" (?onKeyCallback@@YAXPAUGLFWwindow@@W4KeyCode@@HW4Action@@W4Modifier@@@Z)
+main.obj : error LNK2019: unresolved external symbol _glfwSetWindowUserPointer referenced in function "public: __thiscall GLWindow::GLWindow(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int,unsigned int)" (??0GLWindow@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@II@Z)
+main.obj : error LNK2019: unresolved external symbol _glfwWaitEvents referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwGetKeyName referenced in function "void __cdecl onKeyCallback(struct GLFWwindow *,enum KeyCode,int,enum Action,enum Modifier)" (?onKeyCallback@@YAXPAUGLFWwindow@@W4KeyCode@@HW4Action@@W4Modifier@@@Z)
+main.obj : error LNK2019: unresolved external symbol _glfwSetKeyCallback referenced in function "public: void __thiscall GLWindow::setKeyCallback(void *)" (?setKeyCallback@GLWindow@@QAEXPAX@Z)
+main.obj : error LNK2019: unresolved external symbol _glfwMakeContextCurrent referenced in function "public: __thiscall GLWindow::GLWindow(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int,unsigned int)" (??0GLWindow@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@II@Z)
+main.obj : error LNK2019: unresolved external symbol _glfwSwapBuffers referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwGetProcAddress referenced in function "public: __thiscall GLWindow::GLWindow(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int,unsigned int)" (??0GLWindow@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@II@Z)
+D:\dev\glfw\lib-vc2019\glfw3.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\dev\glfw\lib-vc2019\glfw3dll.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+D:\dev\glfw\lib-vc2019\glfw3_mt.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\Orest\source\repos\MeshEditor\Debug\MeshEditor.exe : fatal error LNK1120: 12 unresolved externals
